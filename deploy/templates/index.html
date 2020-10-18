@@ -1,0 +1,29 @@
+<html>
+	<body>
+		<h1> Syncnet Model : Video Inspection (Tampered or Non-Tampered) </h1>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col">
+	
+					<h3> Upload-files </h3>
+					<hr>
+		
+					<form Name="" action="/predict" method="POST" enctype = "multipart/form-data">
+		
+						<label for="audio"> Select Audio file (in wav format)</label>
+						<Input Type="File" name = "audio" />
+						
+						<label for="video">Select Video file</label>
+						<Input Type="File" name = "video" />
+						
+						<input type ="submit" value="Submit"/>
+			
+					</form>
+		
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
